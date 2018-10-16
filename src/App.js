@@ -9,26 +9,24 @@ import Footer from './Components/Footer'
 import Home from './Screens/Home'
 import Preco from './Screens/Preco'
 import Contato from './Screens/Contato'
-
 class App extends Component {
   render() {
     return (
-      <div>
+
+    /* <div>
         <NavBar />
         <Home />
         <Contato />
         <Footer />
+      </div>*/
+    <BrowserRouter>
+      <div className="App">
+      <NavBar />
+      <Route path='/' exact component={Home} />
+      <Route path='/Contato' component={Contato} />
+       <Footer />
       </div>
-    //  <BrowserRouter>
-
-      //<div className="App">
-    //  <NavBar />
-    //  <Route path='/' exact component={Home} />
-    //  <Route path='/Preco' component={Preco} />
-    //  <Route path='/Contato' component={Contato} />
-      //  <Footer />
-      //</div>
-      //  </BrowserRouter>
+       </BrowserRouter>
     );
   }
 }

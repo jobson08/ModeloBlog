@@ -20,17 +20,28 @@ const NavBar = porps =>{
                       <div className="menu_area">
                           <nav className="navbar navbar-expand-lg navbar-light">
                               {/*} Logo*/}
-                              <a className="navbar-brand" href="#">NQ</a>
-                              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
+
+                                <Link to='/' className='navbar-brand'>NQ</Link>
+                              <button className="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false"
+                                aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
                               {/*} Menu*/}
                               <div className="collapse navbar-collapse" id="ca-navbar">
                                   <ul className="navbar-nav ml-auto" id="nav">
-                                      <li className="nav-item active"><a className="nav-link" href="#home">HOME</a></li>
+
+                                    <li className='nav-item '>
+                                      <Link to='/'className='nav-link'>Home </Link>
+                                    </li>
+                                    <li className='nav-item'>
+                                      <Link to='/Contato' className='nav-link'>Contato</Link>
+                                    </li>
+                                    {/*  <li className="nav-item active"><a className="nav-link" href="#home">HOME</a></li>
                                       <li className="nav-item"><a className="nav-link" href="#about">PERFIL</a></li>
                                       <li className="nav-item"><a className="nav-link" href="#features">COLUNAS</a></li>
                                       <li className="nav-item"><a className="nav-link" href="#features">OPINIÃO</a></li>
                                       <li className="nav-item"><a className="nav-link" href="#features">ANUNCIE</a></li>
                                       <li className="nav-item"><a className="nav-link" href="#features">FALE COM NOSCO</a></li>
+                                      */}
                                   </ul>
                                   <div className="sing-up-button d-lg-none">
                                       <a href="#">Sign Up Free</a>
@@ -47,8 +58,6 @@ const NavBar = porps =>{
     </div>
 </div>
 </header>
-
-<Wellcome />
 
 </div>
 
