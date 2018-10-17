@@ -3,65 +3,27 @@ import React, {Component} from 'react'
 import Wellcome from '../Components/Wellcome'
 import ComteudoLateral from '../Components/ComteudoLateral'
 
-class Home extends Component{
+class Noticias extends Component{
   render(){
     return(
       <div>
         <Wellcome />
-        {/****** Special Area Start ******/}
-          <section className='special-area bg-white section_padding_100' id='about'>
+          {/****** Inicio Area para publicidade ******/}
+            <section className='special-area bg-white section_padding_100' id='about'>
               <div className='foder-topo container fluid'>
                   <div className='row'>
                       <div className='col-md-12'>
                           {/* Section Heading Area */}
                           <div className='section-heading text-center'>
-                              <h2>Nossos Colunistas</h2>
+                              <h2>Publicidade</h2>
                           </div>
                       </div>
-                  </div>
-
-                  <div className='row'>
-                      {/*Single Special Area */}
-                      <a href='#' className='col-12 col-md-4'>
-                          <div className='single-special text-center wow fadeInUp' data-wow-delay='0.2s'>
-                              <div className='single-icon'>
-                                  <i className='ti-mobile' aria-hidden='true'></i>
-                              </div>
-                              <div className=' col-md-10'>
-                                <img src='img/bg-img/client-1.jpg' alt=''/>
-                              </div>
-                              <h4>Easy to use</h4>
-                              <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                          </div>
-                      </a>
-                      {/* Single Special Area */}
-                      <a href='#' className='col-12 col-md-4'>
-                          <div className='single-special text-center wow fadeInUp' data-wow-delay='0.4s'>
-                              <div className='single-icon'>
-                                  <i className='ti-ruler-pencil' aria-hidden='true'></i>
-                              </div>
-                              <div className=' col-md-10'>
-                                <img src='img/bg-img/client-2.jpg' alt=''/>
-                              </div>
-                              <h4>Powerful Design</h4>
-                              <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                          </div>
-                      </a>
-                      {/*Single Special Area */}
-                      <a href='#' className='col-12 col-md-4'>
-                          <div className='single-special text-center wow fadeInUp' data-wow-delay='0.6s'>
-                              <div className='single-icon'>
-                                  <i className='ti-settings' aria-hidden='true'></i>
-                              </div>
-                              <div className=' col-md-10'>
-                                <img src='img/bg-img/client-3.jpg' alt=''/>
-                              </div>
-                              <h4>Customizability</h4>
-                              <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                          </div>
-                      </a>
-                  </div>
               </div>
+
+                {/*Area para comteudo */}
+
+              </div>
+              {/****** Fim Area para publicidade ******/}
 
               {/*Special Description Area */}
               <div className='special_description_area mt-130'>
@@ -73,7 +35,6 @@ class Home extends Component{
                           <div className='col-md-8'>
                             <div className='conte-post'>
                               <div className='special_description_content'>
-
                                 <a href='#'>
                                 <div className='col-md-12'>
                                     <div className='special_description_img'>
@@ -148,11 +109,12 @@ class Home extends Component{
                         </div>
                           {/*Fim Post 2*/}
 
-                    {/*Inicio Conteudo lateral*/}
-              <div className='conte-lateral col-md-4'>
-                  <ComteudoLateral />
-              </div>
-                    {/*Fim Conteudo lateral*/}
+    {/*Inicio Conteudo lateral*/}
+      <div className='conte-lateral col-md-4'>
+        <ComteudoLateral />
+      </div>
+    {/*Fim Conteudo lateral*/}
+
                       </div>
                   </div>
                 </div>
@@ -165,4 +127,4 @@ class Home extends Component{
   }
 }
 
-export default Home;
+export default Noticias;

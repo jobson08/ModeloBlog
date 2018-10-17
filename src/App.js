@@ -7,6 +7,10 @@ import Footer from './Components/Footer'
 
 
 import Home from './Screens/Home'
+import Noticias from './Screens/Noticias'
+import Perfil from './Screens/Perfil'
+import Leitor from './Screens/Leitor'
+import Opiniao from './Screens/Opiniao'
 import Preco from './Screens/Preco'
 import Contato from './Screens/Contato'
 class App extends Component {
@@ -23,6 +27,10 @@ class App extends Component {
       <div className="App">
       <NavBar />
       <Route path='/' exact component={Home} />
+      <Route path='/Noticias' component={Noticias} />
+      <Route path='/Perfil' component={Perfil} />
+      <Route path='/Leitor' component={Leitor} />
+      <Route path='/Opiniao' component={Opiniao} />
       <Route path='/Contato' component={Contato} />
        <Footer />
       </div>

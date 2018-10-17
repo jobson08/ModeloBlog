@@ -623,7 +623,7 @@ text-align: center;
     display: flex;
     -ms-flex-preferred-size: 1;
     flex-basis: 1;
-    margin-top: 50px;
+    margin:20px;
 }
 
 .app-download-btn a {
@@ -689,10 +689,18 @@ text-align: center;
     color: #fff;
 }
 
-/************inicio conteudo Lateral******* */
-.cont-infor-lateral{
+/***************inicio do post ****************/
+.cont-infor-post{
   margin-top: 15px;
+  /*margin-left: 250px;*/
 }
+
+
+
+/**************fim do post *****************/
+
+
+/************inicio conteudo Lateral******* */
 
 /*sociam betn @font-face */
 
@@ -773,7 +781,7 @@ text-align: center;
 .social-stagram-btn.active a,
 .social-stagram-btn a:hover {
     border-color: transparent;
-    background-color: #a411d6;
+    background-color: #7ccef4;
 }
 
 .social-stagram-btn a i {
@@ -813,8 +821,13 @@ text-align: center;
 .conte-lateral{
   background:rgb(235, 230, 237);
   border-radius: 30px;
-
 }
+
+.cont-infor-lateral{
+  margin-top: 15px;
+  margin-left: 50px;
+}
+/*btn conteudo lateral*/
 
 /* ************inicio conteudo Lateral********** */
 

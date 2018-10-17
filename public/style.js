@@ -241,13 +241,6 @@ export default StyleSheet.create({
     fontSize: [{ unit: 'px', value: 48 }],
     margin: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }]
   },
-  'section-lateral > h1': {
-    fontWeight: '300',
-    color: '#5b32b4',
-    fontSize: [{ unit: 'px', value: 30 }],
-    marginTop: [{ unit: 'px', value: 5 }],
-    margin: [{ unit: 'px', value: 5 }, { unit: 'px', value: 5 }, { unit: 'px', value: 5 }, { unit: 'px', value: 5 }]
-  },
   'section-heading': {
     marginBottom: [{ unit: 'px', value: 60 }]
   },
@@ -305,7 +298,7 @@ export default StyleSheet.create({
     zIndex: '9'
   },
   // --------------------------
-:: 2.0 Navbar Area CSS
+:: 2.0 Header Area CSS
 --------------------------
   header_area: {
     left: [{ unit: 'px', value: 0 }],
@@ -336,30 +329,16 @@ export default StyleSheet.create({
   'menu_area #nav nav-link': {
     color: '#fff',
     display: 'block',
-    fontSize: [{ unit: 'px', value: 20 }],
+    fontSize: [{ unit: 'px', value: 16 }],
     fontWeight: '500',
     borderRadius: '30px',
     WebkitTransitionDuration: '500ms',
     OTransitionDuration: '500ms',
     transitionDuration: '500ms',
-    padding: [{ unit: 'px', value: 10 }, { unit: 'px', value: 10 }, { unit: 'px', value: 10 }, { unit: 'px', value: 10 }]
-  },
-  'navbar-nav li a:hover': {
-    color: '#009688  !important',
-    // cor prymatia
-    backgroundColor: '#fff !important'
-  },
-  'navbar-nav liactive a': {
-    color: '#009688  !important',
-    // cor prymatia
-    backgroundColor: '#fff !important'
+    padding: [{ unit: 'px', value: 35 }, { unit: 'px', value: 15 }, { unit: 'px', value: 35 }, { unit: 'px', value: 15 }]
   },
   'menu_area nav ul li > a:hover': {
     color: '#fb397d'
-  },
-  'navbar-toggler': {
-    borderColor: '"transparent"',
-    background: '#fff'
   },
   'sing-up-button': {
     textAlign: 'right'
@@ -388,6 +367,7 @@ export default StyleSheet.create({
     backgroundColor: '#884bdf',
     WebkitBoxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
     boxShadow: [{ unit: 'px', value: 0 }, { unit: 'px', value: 4 }, { unit: 'px', value: 20 }, { unit: 'string', value: 'rgba(0, 0, 0, 0.1)' }],
+    // NAVBAR ROLVER
     height: [{ unit: 'px', value: 70 }],
     position: 'fixed',
     top: [{ unit: 'px', value: 0 }],
@@ -395,9 +375,6 @@ export default StyleSheet.create({
   },
   'header_areasticky menu_area navbar-brand': {
     fontSize: [{ unit: 'px', value: 50 }]
-  },
-  'header_areasticky menu_area #nav nav-link': {
-    padding: [{ unit: 'px', value: 23 }, { unit: 'px', value: 15 }, { unit: 'px', value: 23 }, { unit: 'px', value: 15 }]
   },
   'header_areasticky navbar': {
     padding: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }]
@@ -407,8 +384,7 @@ export default StyleSheet.create({
 --------------------------
   wellcome_area: {
     backgroundImage: 'url(img/bg-img/welcome-bg.png)',
-    height: [{ unit: 'px', value: 600 }],
-    // height: 900px;
+    height: [{ unit: 'px', value: 900 }],
     position: 'relative',
     zIndex: '1',
     backgroundPosition: 'bottom center',
@@ -536,16 +512,10 @@ export default StyleSheet.create({
     transitionDuration: '800ms',
     marginBottom: [{ unit: 'px', value: 30 }]
   },
-  'special_description_content > a h2': {
+  'special_description_content > h2': {
     color: '#5b32b4',
     fontSize: [{ unit: 'px', value: 48 }],
     marginBottom: [{ unit: 'px', value: 30 }]
-  },
-  'conte-post': {
-    marginBottom: [{ unit: 'px', value: 30 }],
-    background: 'rgb(235, 230, 237)',
-    borderRadius: '30px',
-    textAlign: 'center'
   },
   'single-special:hover': {
     WebkitBoxShadow: '0 10px 90px rgba(0, 0, 0, 0.08)',
@@ -553,10 +523,6 @@ export default StyleSheet.create({
   },
   'single-special p': {
     marginBottom: [{ unit: 'px', value: 0 }]
-  },
-  'foder-topo': {
-    background: 'rgb(235, 230, 237)',
-    borderRadius: '30px'
   },
   'app-download-area': {
     display: '-moz-flex',
@@ -567,7 +533,7 @@ export default StyleSheet.create({
     display: 'flex',
     MsFlexPreferredSize: '1',
     flexBasis: '1',
-    margin: [{ unit: 'px', value: 20 }, { unit: 'px', value: 20 }, { unit: 'px', value: 20 }, { unit: 'px', value: 20 }]
+    marginTop: [{ unit: 'px', value: 50 }]
   },
   'app-download-btn a': {
     border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ddd' }],
@@ -587,11 +553,11 @@ export default StyleSheet.create({
   },
   'app-download-btnactive a': {
     borderColor: 'transparent',
-    backgroundColor: '#b3b7b7'
+    backgroundColor: '#fb397d'
   },
   'app-download-btn a:hover': {
     borderColor: 'transparent',
-    backgroundColor: '#b3b7b7'
+    backgroundColor: '#fb397d'
   },
   'app-download-btn a i': {
     color: '#47425d',
@@ -608,16 +574,9 @@ export default StyleSheet.create({
     OTransitionDuration: '500ms',
     transitionDuration: '500ms'
   },
-  'app-download-btn a p': {
-    textAlign: 'center',
-    fontSize: [{ unit: 'px', value: 20 }],
+  'app-download-btn a p span': {
+    fontSize: [{ unit: 'px', value: 12 }],
     display: 'block'
-  },
-  'app-download-btn span': {
-    textAlign: 'center',
-    fontSize: [{ unit: 'px', value: 18 }],
-    display: 'block',
-    color: '#e87c09'
   },
   'app-download-btn:first-child': {
     marginRight: [{ unit: 'px', value: 20 }]
@@ -634,142 +593,6 @@ export default StyleSheet.create({
   'app-download-btn a:hover p': {
     color: '#fff'
   },
-  // **************inicio do post ***************
-  'cont-infor-post': {
-    marginTop: [{ unit: 'px', value: 15 }],
-    // margin-left: 250px;
-  },
-  // *************fim do post ****************
-  // ***********inicio conteudo Lateral*******
-  // sociam betn @font-face
-  'social-face-btn a': {
-    border: [{ unit: 'px', value: 10 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ddd' }],
-    display: '-webkit-box',
-    display: '-ms-flexbox',
-    display: 'flex',
-    WebkitBoxAlign: 'center',
-    MsFlexAlign: 'center',
-    alignItems: 'center',
-    padding: [{ unit: 'px', value: 15 }, { unit: 'px', value: 30 }, { unit: 'px', value: 15 }, { unit: 'px', value: 30 }],
-    borderRadius: '30px 30px 30px 0',
-    WebkitBoxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
-    boxShadow: [{ unit: 'px', value: 0 }, { unit: 'px', value: 10 }, { unit: 'px', value: 30 }, { unit: 'string', value: 'rgba(0, 0, 0, 0.1)' }],
-    WebkitBoxPack: 'center',
-    MsFlexPack: 'center',
-    justifyContent: 'center'
-  },
-  'social-face-btnactive a': {
-    borderColor: 'transparent',
-    backgroundColor: '#3986f9'
-  },
-  'social-face-btn a:hover': {
-    borderColor: 'transparent',
-    backgroundColor: '#3986f9'
-  },
-  'social-face-btn a i': {
-    color: '#47425d',
-    fontSize: [{ unit: 'px', value: 24 }],
-    marginRight: [{ unit: 'px', value: 15 }],
-    WebkitTransitionDuration: '500ms',
-    OTransitionDuration: '500ms',
-    transitionDuration: '500ms'
-  },
-  'social-face-btn a p': {
-    fontSize: [{ unit: 'px', value: 25 }],
-    lineHeight: [{ unit: 'px', value: 1 }],
-    WebkitTransitionDuration: '500ms',
-    OTransitionDuration: '500ms',
-    transitionDuration: '500ms'
-  },
-  'social-face-btn a p span': {
-    fontSize: [{ unit: 'px', value: 12 }],
-    display: 'block'
-  },
-  'social-face-btn:first-child': {
-    marginRight: [{ unit: 'px', value: 20 }]
-  },
-  'social-face-btn a:hover i': {
-    color: '#fff'
-  },
-  'social-face-btnactive a i': {
-    color: '#fff'
-  },
-  'social-face-btnactive a p': {
-    color: '#fff'
-  },
-  'social-face-btn a:hover p': {
-    color: '#fff'
-  },
-  // social btn Stagram
-  'social-stagram-btn a': {
-    border: [{ unit: 'px', value: 10 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ddd' }],
-    display: '-webkit-box',
-    display: '-ms-flexbox',
-    display: 'flex',
-    WebkitBoxAlign: 'center',
-    MsFlexAlign: 'center',
-    alignItems: 'center',
-    padding: [{ unit: 'px', value: 15 }, { unit: 'px', value: 30 }, { unit: 'px', value: 15 }, { unit: 'px', value: 30 }],
-    borderRadius: '30px 30px 30px 0',
-    WebkitBoxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
-    boxShadow: [{ unit: 'px', value: 0 }, { unit: 'px', value: 10 }, { unit: 'px', value: 30 }, { unit: 'string', value: 'rgba(0, 0, 0, 0.1)' }],
-    WebkitBoxPack: 'center',
-    MsFlexPack: 'center',
-    justifyContent: 'center'
-  },
-  'social-stagram-btnactive a': {
-    borderColor: 'transparent',
-    backgroundColor: '#7ccef4'
-  },
-  'social-stagram-btn a:hover': {
-    borderColor: 'transparent',
-    backgroundColor: '#7ccef4'
-  },
-  'social-stagram-btn a i': {
-    color: '#47425d',
-    fontSize: [{ unit: 'px', value: 24 }],
-    marginRight: [{ unit: 'px', value: 15 }],
-    WebkitTransitionDuration: '500ms',
-    OTransitionDuration: '500ms',
-    transitionDuration: '500ms'
-  },
-  'social-stagram-btn a p': {
-    fontSize: [{ unit: 'px', value: 25 }],
-    lineHeight: [{ unit: 'px', value: 1 }],
-    WebkitTransitionDuration: '500ms',
-    OTransitionDuration: '500ms',
-    transitionDuration: '500ms'
-  },
-  'social-stagram-btn a p span': {
-    fontSize: [{ unit: 'px', value: 12 }],
-    display: 'block'
-  },
-  'social-stagram-btn:first-child': {
-    marginRight: [{ unit: 'px', value: 20 }]
-  },
-  'social-stagram-btn a:hover i': {
-    color: '#fff'
-  },
-  'social-stagram-btnactive a i': {
-    color: '#fff'
-  },
-  'social-stagram-btnactive a p': {
-    color: '#fff'
-  },
-  'social-stagram-btn a:hover p': {
-    color: '#fff'
-  },
-  // conteudo social
-  'conte-lateral': {
-    background: 'rgb(235, 230, 237)',
-    borderRadius: '30px'
-  },
-  'cont-infor-lateral': {
-    marginTop: [{ unit: 'px', value: 15 }],
-    marginLeft: [{ unit: 'px', value: 50 }]
-  },
-  // btn conteudo lateral
-  // ************inicio conteudo Lateral**********
   // --------------------------
 :: 5.0 Features Area CSS
 --------------------------
@@ -1210,15 +1033,15 @@ export default StyleSheet.create({
 :: 13.0 Contact Area CSS Start
 --------------------------
   'address-text > p': {
-    fontSize: [{ unit: 'px', value: 20 }],
+    fontSize: [{ unit: 'px', value: 18 }],
     marginBottom: [{ unit: 'px', value: 10 }]
   },
   'phone-text > p': {
-    fontSize: [{ unit: 'px', value: 20 }],
+    fontSize: [{ unit: 'px', value: 18 }],
     marginBottom: [{ unit: 'px', value: 10 }]
   },
   'email-text > p': {
-    fontSize: [{ unit: 'px', value: 20 }],
+    fontSize: [{ unit: 'px', value: 18 }],
     marginBottom: [{ unit: 'px', value: 10 }]
   },
   'address-text > p > span': {
@@ -1268,13 +1091,10 @@ export default StyleSheet.create({
     transitionDuration: '500ms'
   },
   'footer-contact-area': {
-    background: '#859398'
+    background: '#f5f9fc'
   },
   'footer-text > p': {
     marginBottom: [{ unit: 'px', value: 50 }]
-  },
-  'text-contato': {
-    color: '#fff'
   },
   // --------------------------
 :: 14.0 Footer Area CSS Start
