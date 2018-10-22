@@ -26,100 +26,83 @@ class Noticias extends Component{
               {/****** Fim Area para publicidade ******/}
 
               {/*Special Description Area */}
-              <div className='special_description_area mt-130'>
-                  <div className='container'>
-                    <div className='mt-2 py-3'>
-                      <div className='row'>
 
-                        {/*Inicion Post 1*/}
+                  <section className='special_description_area mt-130'>
+                    <div className="container mt-2 py-3">
+                        <div className="row ">
                           <div className='col-md-8'>
-                            <div className='conte-post'>
-                              <div className='special_description_content'>
-                                <a href='#'>
-                                <div className='col-md-12'>
-                                    <div className='special_description_img'>
-                                        <img src='img/bg-img/special.png' alt=''/>
-                                    </div>
-                                </div>
-                                  <h2>Our Best Propositions for You!</h2>
-                                  </a>
 
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                    sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit, sed do eiusmod tempor ut labore et
-                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-
-                                  <div className='app-download-area'>
-                                      <div className='app-download-btn wow fadeInUp' data-wow-delay='0.2s'>
-                                          {/*Google Store Btn*/}
-                                          <a href='#'>
-                                              <i className='fa fa-thumbs-o-up'></i>
-                                              <p className='mb-0'><span>100</span> Gostei</p>
-                                          </a>
-                                      </div>
-                                      <div className='app-download-btn wow fadeInDown' data-wow-delay='0.4s'>
-                                          {/*Apple Store Btn */}
-                                          <a href='#'>
-                                              <i className='fa fa-thumbs-o-down'></i>
-                                              <p className='mb-0'><span>5</span> Não Gostei</p>
-                                          </a>
-                                      </div>
-                                  </div>
+                {/*inicio post 1*/}
+                          <a href='#' className='conte-post row'>
+                          <div className='col-md-4'>
+                            <img src='img/team-img/team-1.jpg' alt=''/>
+                          </div>
+                            <div className='col-md-6 px-3'>
+                              <div className='card-block px-3'>
+                                <p className='card-text'>22/10/2018 </p>
+                                <h4 className='card-title'>Lorem ipsum dolor sit amet</h4>
+                                <p className='card-text'>Consectetur adipiscing elit. </p>
                               </div>
                             </div>
+                          </a>
+                {/*fim post 1*/}
 
-                          {/*Fim Post 1*/}
-
-                          {/*Inicion Post 2*/}
-                          <div className='conte-post'>
-                              <div className='special_description_content'>
-                                <a href='#'>
-                                <div className='col-md-12'>
-                                    <div className='special_description_img'>
-                                        <img src='img/team-img/team-1.jpg' alt=''/>
-                                    </div>
-                                </div>
-                                  <h2>Our Best Propositions for You!</h2>
-                                  </a>
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                    sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
-                                    consectetur adipisicing elit, sed do eiusmod tempor ut labore et
-                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-
-                                  <div className='app-download-area'>
-                                      <div className='app-download-btn wow fadeInUp' data-wow-delay='0.2s'>
-                                          {/*Google Store Btn*/}
-                                          <a href='#' >
-                                              <i className='fa fa-thumbs-o-up'></i>
-                                              <p className='mb-0'><span>60</span> Gostei</p>
-                                          </a>
-                                      </div>
-                                      <div className='app-download-btn wow fadeInDown' data-wow-delay='0.4s'>
-                                          {/*Apple Store Btn */}
-                                          <a href='#'>
-                                              <i className='fa fa-thumbs-o-down'></i>
-                                              <p className='mb-0'><span>2</span> Não Gostei</p>
-                                          </a>
-                                      </div>
-                                  </div>
-                              </div>
+                {/*inicio post 2*/}
+                          <a href='#' className='conte-post row'>
+                          <div className='col-md-4'>
+                            <img src='img/team-img/team-2.jpg' alt=''/>
                           </div>
-                        </div>
-                          {/*Fim Post 2*/}
+                            <div className='col-md-6 px-3'>
+                              <div className='card-block px-3'>
+                                <p className='card-text'>21/10/2018 </p>
+                                <h4 className='card-title'>Lorem ipsum dolor sit amet</h4>
+                                <p className='card-text'>Consectetur adipiscing elit. </p>
+                              </div>
+                            </div>
+                          </a>
+                {/*fim post 2*/}
 
-    {/*Inicio Conteudo lateral*/}
-      <div className='conte-lateral col-md-4'>
-        <ComteudoLateral />
-      </div>
-    {/*Fim Conteudo lateral*/}
+                {/*inicio post 3*/}
+                          <a href='#' className='conte-post row'>
+                          <div className='col-md-4'>
+                            <img src='img/team-img/team-3.jpg' alt=''/>
+                          </div>
+                            <div className='col-md-6 px-3'>
+                              <div className='card-block px-3'>
+                                <p className='card-text'>21/10/2018 </p>
+                                <h4 className='card-title'>Lorem ipsum dolor sit amet</h4>
+                                <p className='card-text'>Consectetur adipiscing elit. </p>
+                              </div>
+                            </div>
+                          </a>
+                {/*fim post 3*/}
 
-                      </div>
-                  </div>
+                {/*inicio post 4*/}
+                <a href='#' className='conte-post row'>
+                <div className='col-md-4'>
+                  <img src='img/team-img/team-4.jpg' alt=''/>
                 </div>
-              </div>
-          </section>
+                  <div className='col-md-6 px-3'>
+                    <div className='card-block px-3'>
+                      <p className='card-text'>21/10/2018 </p>
+                      <h4 className='card-title'>Lorem ipsum dolor sit amet</h4>
+                      <p className='card-text'>Consectetur adipiscing elit. </p>
+                    </div>
+                  </div>
+                </a>
+                {/*fim post 4*/}
+                    </div>
+
+          {/*Inicio Conteudo lateral*/}
+            <div className='conte-lateral col-md-4'>
+              <ComteudoLateral />
+            </div>
+          {/*Fim Conteudo lateral*/}
+
+            </div>
+          </div>
+    </section>
+</section>
         {/* ***** Special Area End ***** */}
 
   </div>

@@ -35,14 +35,14 @@ class ComteudoLateral extends Component{
     <div className='row col-md-12'  >
 
     <a href='#' className='cont-infor-lateral row'>
-    <div class="col-md-10">
-    <div class="single-team-member">
-    <div class="member-image">
+    <div className="col-md-10">
+    <div className="single-team-member">
+    <div className="member-image">
       <img src="img/team-img/team-1.jpg" alt=""/>
-      <div class="team-hover-effects">
+      <div className="team-hover-effects">
       </div>
     </div>
-    <div class="member-text">
+    <div className="member-text">
       <h4>Jackson Nash</h4>
       <p>Tax Advice</p>
     </div>
@@ -51,14 +51,14 @@ class ComteudoLateral extends Component{
     </a>
 
     <a href='#' className='cont-infor-lateral row'>
-    <div class="col-md-10">
-    <div class="single-team-member">
-    <div class="member-image">
+    <div className="col-md-10">
+    <div className="single-team-member">
+    <div className="member-image">
     <img className='img-fluid 'src='img/bg-img/welcome-img.png' alt=''/>
-    <div class="team-hover-effects">
+    <div className="team-hover-effects">
     </div>
     </div>
-    <div class="member-text">
+    <div className="member-text">
     <h4>Jackson Nash</h4>
     <p>Tax Advice</p>
     </div>

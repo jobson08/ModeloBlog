@@ -18,7 +18,7 @@ const NavBar = porps =>{
                   {/*Menu Area Start */}
                   <div className="col-12 col-lg-10">
                       <div className="menu_area">
-                          <nav className="navbar navbar-expand-lg navbar-light">
+                          <nav className="navbar navbar-expand-lg navbar-light fixed-top">
                               {/*} Logo*/}
 
                                 <Link to='/' className='navbar-brand'>NQ</Link>
@@ -58,15 +58,16 @@ const NavBar = porps =>{
                                   <div className="sing-up-button d-lg-none">
                                       <a href="#">Sign Up Free</a>
                                   </div>
+
+                          <div className="col-12 col-lg-2">
+                            <div className="sing-up-button d-none d-lg-block">
+                                <a href="#">Sign Up Free</a>
+                            </div>
+                        </div>
                               </div>
                           </nav>
                       </div>
                   </div>
-                  <div className="col-12 col-lg-2">
-            <div className="sing-up-button d-none d-lg-block">
-                <a href="#">Sign Up Free</a>
-            </div>
-        </div>
     </div>
 </div>
 </header>

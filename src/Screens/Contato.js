@@ -10,9 +10,8 @@ class Contato extends Component{
                   <div className='row'>
                       <div className='col-md-6'>
                           {/* Heading Text*/}
-                          <div className='section-heading'>
-                              <h2>Get in touch with us!</h2>
-                              <div className='line-shape'></div>
+                          <div className='section-contato'>
+                              <h2>Get in touch with us!</h2>            
                           </div>
                           <div className='footer-text'>
                               <p className='text-contato'>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>

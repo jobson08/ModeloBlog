@@ -21,14 +21,15 @@ const Wellcome = porps =>{
                               <input type='submit' className='submit' value='Get Started'>
                           </form>*/}
                           {/* Form End */}
+                        {/* <div className='welcome-thumb wow fadeInDown' data-wow-delay='0.5s'>
+                              <img src='img/bg-img/logo-vermelho.png' alt=''/>
+                          </div>*/}
                       </div>
                   </div>
               </div>
           </div>
           {/* Welcome thumb*/}
-          <div className='welcome-thumb wow fadeInDown' data-wow-delay='0.5s'>
-              <img src='img/bg-img/welcome-img.png' alt=''/>
-          </div>
+
       </section>
       {/*Wellcome Area End */}
     </div>

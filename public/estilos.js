@@ -25,6 +25,11 @@ export default StyleSheet.create({
 :: 12.0 Team Area CSS Start
 :: 13.0 Contact Area CSS Start
 :: 14.0 Footer Area CSS Start
+
+Color{
+#fb397d: rolverIcon, button
+
+}
 --------------------------
   import: 'url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700')',
   import: ''css/bootstrap.min.css'',
@@ -384,10 +389,18 @@ export default StyleSheet.create({
     transitionDuration: '500ms'
   },
   // stcicky css
-  header_areasticky: {
-    backgroundColor: '#884bdf',
-    WebkitBoxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
-    boxShadow: [{ unit: 'px', value: 0 }, { unit: 'px', value: 4 }, { unit: 'px', value: 20 }, { unit: 'string', value: 'rgba(0, 0, 0, 0.1)' }],
+  // .header_area.sticky {
+    background-color: #884bdf;
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+  header_area: {
+    backgroundColor: '#6953e7',
+    opacity: '0.9',
     height: [{ unit: 'px', value: 70 }],
     position: 'fixed',
     top: [{ unit: 'px', value: 0 }],
@@ -407,7 +420,7 @@ export default StyleSheet.create({
 --------------------------
   wellcome_area: {
     backgroundImage: 'url(img/bg-img/welcome-bg.png)',
-    height: [{ unit: 'px', value: 600 }],
+    height: [{ unit: 'px', value: 550 }],
     // height: 900px;
     position: 'relative',
     zIndex: '1',
@@ -432,13 +445,13 @@ export default StyleSheet.create({
     zIndex: '9'
   },
   'welcome-thumb img': {
-    height: [{ unit: 'string', value: 'auto' }],
+    height: [{ unit: 'px', value: 50 }],
     width: [{ unit: '%H', value: 1 }]
   },
   'wellcome-heading > h2': {
     fontSize: [{ unit: 'px', value: 100 }],
     color: '#ffffff',
-    fontWeight: '700',
+    fontWeight: '500',
     position: 'relative',
     zIndex: '3'
   },
@@ -1209,6 +1222,12 @@ export default StyleSheet.create({
   // --------------------------
 :: 13.0 Contact Area CSS Start
 --------------------------
+  'section-contato > h2': {
+    fontWeight: '300',
+    color: '#0d0470',
+    fontSize: [{ unit: 'px', value: 48 }],
+    margin: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }]
+  },
   'address-text > p': {
     fontSize: [{ unit: 'px', value: 20 }],
     marginBottom: [{ unit: 'px', value: 10 }]
@@ -1222,13 +1241,13 @@ export default StyleSheet.create({
     marginBottom: [{ unit: 'px', value: 10 }]
   },
   'address-text > p > span': {
-    color: '#5b32b4'
+    color: '#0d0470'
   },
   'phone-text > p > span': {
-    color: '#5b32b4'
+    color: '#0d0470'
   },
   'email-text > p > span': {
-    color: '#5b32b4'
+    color: '#0d0470'
   },
   'footer-contact-area line-shape': {
     marginLeft: [{ unit: 'px', value: 0 }]
@@ -1268,7 +1287,7 @@ export default StyleSheet.create({
     transitionDuration: '500ms'
   },
   'footer-contact-area': {
-    background: '#859398'
+    background: '#6953e7'
   },
   'footer-text > p': {
     marginBottom: [{ unit: 'px', value: 50 }]

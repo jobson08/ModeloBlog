@@ -23,6 +23,11 @@
 :: 12.0 Team Area CSS Start
 :: 13.0 Contact Area CSS Start
 :: 14.0 Footer Area CSS Start
+
+Color{
+#fb397d: rolverIcon, button
+
+}
 -------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
@@ -382,10 +387,10 @@ p {
     border-color: "transparent";
     background:#fff;
 }
+
 .sing-up-button {
     text-align: right;
 }
-
 .sing-up-button > a {
     color: #fff;
     font-weight: 500;
@@ -408,10 +413,18 @@ p {
 
 /* stcicky css */
 
-.header_area.sticky {
+/*.header_area.sticky {
     background-color: #884bdf;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}*/
+.header_area {
+    background-color: #6953e7;
+    opacity: 0.9;
     height: 70px;
     position: fixed;
     top: 0;
@@ -436,7 +449,7 @@ p {
 
 .wellcome_area {
     background-image: url(img/bg-img/welcome-bg.png);
-    height: 600px;
+    height: 550px;
     /*height: 900px;*/
     position: relative;
     z-index: 1;
@@ -464,14 +477,14 @@ p {
 }
 
 .welcome-thumb img {
-    height: auto;
+    height: 50;
     width: 100%;
 }
 
 .wellcome-heading > h2 {
     font-size: 100px;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 500;
     position: relative;
     z-index: 3;
 }
@@ -1332,6 +1345,12 @@ text-align: center;
 /* --------------------------
 :: 13.0 Contact Area CSS Start
 -------------------------- */
+.section-contato > h2 {
+    font-weight: 300;
+    color: #0d0470;
+    font-size: 48px;
+    margin: 0;
+}
 
 .address-text > p,
 .phone-text > p,
@@ -1343,7 +1362,7 @@ text-align: center;
 .address-text > p > span,
 .phone-text > p > span,
 .email-text > p > span {
-    color: #5b32b4;
+    color: #0d0470;
 }
 
 .footer-contact-area .line-shape {
@@ -1392,7 +1411,7 @@ text-align: center;
 }
 
 .footer-contact-area {
-    background: #859398;
+    background: #6953e7;
 }
 
 .footer-text > p {
