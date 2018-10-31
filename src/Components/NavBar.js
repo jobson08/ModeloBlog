@@ -45,6 +45,9 @@ const NavBar = porps =>{
                                       <Link to='/Opiniao' className='nav-link'>Opinião</Link>
                                     </li>
                                     <li className='nav-item'>
+                                      <Link to='/Equipe' className='nav-link'>Equipe</Link>
+                                    </li>
+                                    <li className='nav-item'>
                                       <Link to='/Contato' className='nav-link'>Contato</Link>
                                     </li>
                                     {/*  <li className="nav-item active"><a className="nav-link" href="#home">HOME</a></li>
