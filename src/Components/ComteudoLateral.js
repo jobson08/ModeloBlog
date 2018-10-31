@@ -25,7 +25,16 @@ class ComteudoLateral extends Component{
                 <p className='mb-0'> Twitter</p>
             </a>
         </div>
+
+    <div className='social-Whatsapp-btn wow fadeInDown' data-wow-delay='0.4s'>
+        {/*Apple Store Btn */}
+        <a href='#'>
+            <i className='fa fa-whatsapp'></i>
+            <p className='mb-0'> Whatsapp</p>
+        </a>
     </div>
+</div>
+
 
     <div className=''>
     <div className='section-lateral text-center'>

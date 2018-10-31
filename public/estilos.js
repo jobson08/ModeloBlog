@@ -29,6 +29,7 @@ export default StyleSheet.create({
 Color{
 #fb397d: rolverIcon, button
 
+
 }
 --------------------------
   import: 'url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700')',
@@ -558,7 +559,13 @@ Color{
     marginBottom: [{ unit: 'px', value: 30 }],
     background: 'rgb(235, 230, 237)',
     borderRadius: '30px',
-    textAlign: 'center'
+    textAlign: 'center',
+    marginRight: [{ unit: 'px', value: 1 }]
+  },
+  'card-title': {
+    color: '#5b32b4',
+    fontSize: [{ unit: 'px', value: 20 }],
+    marginBottom: [{ unit: 'px', value: 30 }]
   },
   'single-special:hover': {
     WebkitBoxShadow: '0 10px 90px rgba(0, 0, 0, 0.08)',
@@ -682,7 +689,7 @@ Color{
   'social-face-btn a i': {
     color: '#47425d',
     fontSize: [{ unit: 'px', value: 24 }],
-    marginRight: [{ unit: 'px', value: 15 }],
+    marginRight: [{ unit: 'px', value: 30 }],
     WebkitTransitionDuration: '500ms',
     OTransitionDuration: '500ms',
     transitionDuration: '500ms'
@@ -741,7 +748,7 @@ Color{
   'social-stagram-btn a i': {
     color: '#47425d',
     fontSize: [{ unit: 'px', value: 24 }],
-    marginRight: [{ unit: 'px', value: 15 }],
+    marginRight: [{ unit: 'px', value: 30 }],
     WebkitTransitionDuration: '500ms',
     OTransitionDuration: '500ms',
     transitionDuration: '500ms'
@@ -770,6 +777,65 @@ Color{
     color: '#fff'
   },
   'social-stagram-btn a:hover p': {
+    color: '#fff'
+  },
+  // Btn Social Whatsapp
+  'social-Whatsapp-btn a': {
+    border: [{ unit: 'px', value: 10 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ddd' }],
+    display: '-webkit-box',
+    display: '-ms-flexbox',
+    display: 'flex',
+    WebkitBoxAlign: 'center',
+    MsFlexAlign: 'center',
+    alignItems: 'center',
+    padding: [{ unit: 'px', value: 15 }, { unit: 'px', value: 30 }, { unit: 'px', value: 15 }, { unit: 'px', value: 30 }],
+    borderRadius: '30px 30px 30px 0',
+    WebkitBoxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
+    boxShadow: [{ unit: 'px', value: 0 }, { unit: 'px', value: 10 }, { unit: 'px', value: 30 }, { unit: 'string', value: 'rgba(0, 0, 0, 0.1)' }],
+    WebkitBoxPack: 'center',
+    MsFlexPack: 'center',
+    justifyContent: 'center'
+  },
+  'social-Whatsapp-btnactive a': {
+    borderColor: 'transparent',
+    backgroundColor: '#00ff7f'
+  },
+  'social-Whatsapp-btn a:hover': {
+    borderColor: 'transparent',
+    backgroundColor: '#00ff7f'
+  },
+  'social-Whatsapp-btn a i': {
+    color: '#47425d',
+    fontSize: [{ unit: 'px', value: 30 }],
+    marginRight: [{ unit: 'px', value: 15 }],
+    WebkitTransitionDuration: '500ms',
+    OTransitionDuration: '500ms',
+    transitionDuration: '500ms'
+  },
+  'social-Whatsapp-btn a p': {
+    fontSize: [{ unit: 'px', value: 25 }],
+    lineHeight: [{ unit: 'px', value: 1 }],
+    WebkitTransitionDuration: '500ms',
+    OTransitionDuration: '500ms',
+    transitionDuration: '500ms'
+  },
+  'social-Whatsapp-btn a p span': {
+    fontSize: [{ unit: 'px', value: 12 }],
+    display: 'block'
+  },
+  'social-Whatsappbtn:first-child': {
+    marginRight: [{ unit: 'px', value: 20 }]
+  },
+  'social-Whatsapp-btn a:hover i': {
+    color: '#fff'
+  },
+  'social-Whatsapp-btnactive a i': {
+    color: '#fff'
+  },
+  'social-Whatsapp-btnactive a p': {
+    color: '#fff'
+  },
+  'social-Whatsapp-btn a:hover p': {
     color: '#fff'
   },
   // conteudo social

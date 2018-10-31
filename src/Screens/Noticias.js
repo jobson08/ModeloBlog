@@ -27,9 +27,9 @@ class Noticias extends Component{
 
               {/*Special Description Area */}
 
-                  <section className='special_description_area mt-130'>
+                  <section className='special_description_area'>
                     <div className="container mt-2 py-3">
-                        <div className="row ">
+                        <div className="row">
                           <div className='col-md-8'>
 
                 {/*inicio post 1*/}

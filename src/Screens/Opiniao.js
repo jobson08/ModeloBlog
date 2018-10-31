@@ -24,7 +24,7 @@ class Opiniao extends Component{
 
               </div>
               {/****** Fim Area para publicidade ******/}
-              
+
               {/*Special Description Area */}
               <div className='special_description_area mt-130'>
                   <div className='container'>
